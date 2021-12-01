@@ -6,7 +6,7 @@ const Ej7 = () => {
         <div>
             <h2>¿Qué estoy escribiendo?</h2>
             <label>Escribe: </label>
-            <input />
+            <input type="password" />
             <br />
             <p></p>
         </div>
