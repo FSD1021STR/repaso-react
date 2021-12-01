@@ -1,0 +1,14 @@
+.counter {
+    margin-left: 60px;
+    border-radius: 50%;
+    background-color: green;
+    width: 100px;
+    height: 50px;
+}
+.reset {
+    margin-left: 60px;
+    border-radius: 50%;
+    background-color: red;
+    width: 100px;
+    height: 50px;
+}
