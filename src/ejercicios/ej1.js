@@ -15,8 +15,8 @@ const Ej1 = () => {
   return (
     <div>
       <h2>Cuantos clicks puedes dar antes de cansarte?</h2>
-      <label>{contador}</label>
-      <button className="counter" onClick={handleOnClickContador}>
+      <label onClick={handleOnClickContador}>{contador}</label>
+      <button className="counter" onClick={ handleOnClickContador}>
         Click!
       </button>
       <button className="reset" onClick={handleOnClickReset}>reset!</button>
