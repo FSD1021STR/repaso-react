@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Ej8 = () => {
-  
+  const [seleccion, setSeleccion] = useState("");
   const empleos = [
     "policia",
     "medico",
@@ -16,11 +16,11 @@ const Ej8 = () => {
     <div>
       <h2>¿Qué quieres ser de mayor?</h2>
       <label>Elige: </label>
-      <select >
-        
+      <select onChange={evento => setSeleccion(evento.target.value)}>
+        {empleos.map(empleo => <option>{empleo}</option>)}
       </select>
       <br />
-      <p>De mayor elijo ser: </p>
+      <p>De mayor elijo ser: {seleccion}</p>
     </div>
   );
 };
