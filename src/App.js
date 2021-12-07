@@ -10,11 +10,16 @@ import Ej5 from './ejercicios/ej5';
 import { OnkeyEvents } from './My Exercices/myEj5';
 import Ej6 from './ejercicios/ej6';
 import { MyEj6 } from './My Exercices/myEj6';
+import { Input } from './My Exercices/eventInputTest';
+import { MyEj7 } from './My Exercices/myEj7';
+import Ej8 from './ejercicios/ej8';
+import { MyEj8 } from './My Exercices/myEj8';
+import { MyEj9 } from './My Exercices/myEj9';
 
 function App() {
   return (
     <div >
-      <MyEj6 />
+      <MyEj9/>
     </div>
   );
 }

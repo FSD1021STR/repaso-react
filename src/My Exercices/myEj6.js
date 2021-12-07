@@ -6,6 +6,10 @@ export const MyEj6 = () => {
     const frase = ["Hola", "que", "tal", "como", "estas"];
     const [text, setText] = useState("")
     const [result, setResult]= useState(" ")
+//cuando es una sola prop no hace falta el parentesis (event)
+    const handleOnKeyPress = event => {
+        
+    }
     return(
         <div className="myEj6">
             <div className="titles">
@@ -24,7 +28,7 @@ export const MyEj6 = () => {
                 <div className="frase">Frase: {frase.join(" ")}</div>
                 <div className="input">
                     <input onChange={event => setText(event.target.value)}
-                            onKeyPress></input>
+                            onKeyPress={event => handleOnKeyPress(event)}/>
                 </div>
                 <div className="answer">
                     <label>{text}</label>
