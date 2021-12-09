@@ -15,11 +15,13 @@ import { MyEj7 } from './My Exercices/myEj7';
 import Ej8 from './ejercicios/ej8';
 import { MyEj8 } from './My Exercices/myEj8';
 import { MyEj9 } from './My Exercices/myEj9';
+import { EjOcho, Forms7 } from './My Exercices/formEvents';
 
 function App() {
   return (
     <div >
-      <MyEj9/>
+      <Forms7/>
+     
     </div>
   );
 }
