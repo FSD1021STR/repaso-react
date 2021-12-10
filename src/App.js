@@ -16,11 +16,12 @@ import Ej8 from './ejercicios/ej8';
 import { MyEj8 } from './My Exercices/myEj8';
 import { MyEj9 } from './My Exercices/myEj9';
 import { EjOcho, Forms7 } from './My Exercices/formEvents';
+import { FormTest } from './My Exercices/formTest';
 
 function App() {
   return (
     <div >
-      <Forms7/>
+      <FormTest/>
      
     </div>
   );
