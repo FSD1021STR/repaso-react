@@ -1,28 +1,36 @@
-.nom {
-    margin: 50px 250px;
-    width: 50px;
-    background-color: aqua;
-    font-size: 40px;
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black ;
+}
+.title  {
+    text-align: center;
 }
 
 .counter {
-    margin-left: 60px;
-    border-radius: 50%;
-    background-color: green;
     width: 100px;
-    height: 50px;
+    margin: 50px auto;
+    background-color: aqua;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(148, 148, 148);
+    border-radius: 5px;
 }
-.reset {
-    margin-left: 60px;
-    border-radius: 50%;
-    background-color: red;
-    width: 100px;
-    height: 50px;
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    
+    
+
 }
-.quita {
-    margin-left: 60px;
-    border-radius: 50%;
-    background-color: blue;
+button {
     width: 100px;
-    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #aaa
+}
+button:hover {
+background-color: azure;
 }
