@@ -18,13 +18,16 @@ import { MyEj9 } from './My Exercices/myEj9';
 import { EjOcho, Forms7 } from './My Exercices/formEvents';
 import { FormTest } from './My Exercices/formTest';
 import { Form2 } from './My Exercices/form2';
+import H7 from './holidays/holidays7';
+import H701 from './holidays/7.1';
+import H8 from './holidays/holidays8';
+import HolidayForm from './holidays/holiday9';
+;
 
 function App() {
   return (
     <div >
-      <FormTest/>
-      <Form2/>
-     
+      <HolidayForm/>
     </div>
   );
 }
